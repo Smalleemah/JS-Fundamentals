@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main section {
+    justify-content: center;
+    align-items: center;
+}
+
+main section h2 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 100px 0 ;
+}
+
+main section div {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+section div div {
+    display: grid;
+    grid-template-areas: "image";
+    max-width: 260px;
+}
+
+.profile-pic {
+    width: 40px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+}
+/* 
+section div div div {
+    margin-right: 110px;
+} */
+
+.bold-img, .play-img {
+    grid-area: image;
+}
+
+.play-img {
+   justify-self: start;
+   align-self: start;
+   margin: 55px 0 0 100px;
+   width: 45px;
+} 
+
+section div div p:nth-child(2) {
+    justify-content: center;
+    align-items: center;
+    line-height: 25px;
+    max-width: 200px;
+    margin-bottom: 200px;
+}
+
+section div div p img {
+    margin-right: 10px;
+}
+
+section div div div {
+    display: flex;
+}
+
+section div div div:nth-child(2) {
+    display: flex;
+}

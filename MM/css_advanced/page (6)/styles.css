@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer {
+    background: rgb(19, 18, 18);
+}
+
+footer section {
+    padding: 200px 50px 50px;
+}
+
+footer section div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 600px;
+}
+
+footer section div div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+footer section div div i {
+    width: 30px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    background: #fff;
+    color: rgb(19, 18, 18);
+}
+
+footer section p {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: #fff;
+    margin-top: 100px;
+}

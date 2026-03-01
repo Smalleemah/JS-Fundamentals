@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"path": "../../INTERN"
+	},
+	{
+		"path": "../../MyAlbums"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "INTERN"
+  }
+}

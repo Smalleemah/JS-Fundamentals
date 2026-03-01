@@ -1,0 +1,377 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #fff;
+    background: url(/public/Object.png);
+    /* background-size: 100% 100%; */
+    background-position: top 90px;
+    background-repeat: no-repeat;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    gap: 430px;
+    margin: 100px auto;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul {
+    gap: 30px;
+}
+
+nav ul li {
+    list-style-type: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+main {
+    padding: 1px;
+}
+
+main section:nth-child(1) {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+main section:nth-child(1) div h1{
+    font-size: 100px;
+}
+
+main section:nth-child(1) div div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
+    font-size: bold 15px;
+    /* margin: 30px 0 50px; */
+}
+
+main section:nth-child(1) div button {
+    font-size: 10px;
+    border: none;
+    background: rgb(190, 92, 190);
+    color: #fff;
+    width: 160px;
+    height: 30px;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+main section:nth-child(1) div:nth-child(2) h2 {
+    margin-top: 150px;
+}
+
+main section:nth-child(1) div:nth-child(2) h2 span {
+    color: rgb(230, 131, 230);
+}
+
+main section:nth-child(1) div div div {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+main section:nth-child(1) div:nth-child(2) div {
+    justify-content: center;
+}
+
+main section:nth-child(1) div:nth-child(2) div div {
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+main section:nth-child(1) div:nth-child(2) div div img {
+    display: flex;
+    width: 100px;
+    border-radius: 50%;
+    margin: 20px 0 20px 40px;
+}
+
+main section:nth-child(1) div div div p {
+    display: flex;
+    max-width: 200px;
+}
+
+
+
+
+
+
+
+main section:nth-child(2) {
+    display: flex;
+    padding: 100px 0;
+    justify-content: center;
+    align-items: center;
+    /* margin: 50px; */
+    background: rgb(241, 139, 156);
+    gap: 50px;
+    color: white;
+}
+main section:nth-child(2) div:nth-child(1) img {
+    width: 120px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+}
+
+main section:nth-child(2) div:nth-child(2) {
+   display: grid;
+   max-width: 500px;
+}
+
+main section:nth-child(2) div:nth-child(2) h3 {
+   margin-top: 40px;
+}
+
+
+
+
+
+
+
+/* missing one here */
+
+main section:nth-child(3) {
+    color: black;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+main section:nth-child(3) h2 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 100px 0 ;
+}
+
+main section:nth-child(3) div {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+section:nth-child(3) div div {
+    display: grid;
+    grid-template-areas: "image";
+    max-width: 260px;
+}
+
+.profile-pic {
+    width: 40px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+}
+/* 
+section div div div {
+    margin-right: 110px;
+} */
+
+.bold-img, .play-img {
+    grid-area: image;
+}
+
+.play-img {
+   justify-self: start;
+   align-self: start;
+   margin: 55px 0 0 100px;
+   width: 45px;
+} 
+
+section:nth-child(3) div div p:nth-child(2) {
+    justify-content: center;
+    align-items: center;
+    line-height: 25px;
+    max-width: 200px;
+    margin-bottom: 200px;
+}
+
+section:nth-child(3) div div p img {
+    margin-right: 10px;
+}
+
+section:nth-child(3) div div div {
+    display: flex;
+}
+
+section:nth-child(3) div div div:nth-child(2) {
+    display: flex;
+}
+
+
+
+
+
+
+
+
+section:nth-child(4) {
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    background: #181717;
+    width: 100%;
+    max-width: 1500px;
+    height: 600px;
+    padding-top: 60px;
+}
+
+section:nth-child(4) h2 {
+    margin: 0 0 50px;
+}
+
+section:nth-child(4) h2 span {
+    color: rgb(139, 70, 139);
+}
+
+section:nth-child(4) div {
+    display: flex;
+    align-items: center;
+    margin-left: 130px;
+    margin-bottom: 40px;
+    max-width: 1000px;
+    /* margin-left: 10%; */
+}
+
+section:nth-child(4) div div {
+    display: grid;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+section:nth-child(4) div div p {
+    max-width: 200px;
+}
+
+section:nth-child(4) div div img {
+    display: flex;
+    /* align-items: center; */
+    margin-left: 30%;
+    margin-bottom: 30px;
+}
+
+section:nth-child(4) button {
+    color: #fff;
+    background: rgb(139, 70, 139);
+    width: 190px;
+    height: 40px;
+    border: none;
+    border-radius: 30px;
+}
+
+
+
+
+
+
+
+
+
+section:nth-child(5) {
+    color: black;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    text-align: left;
+}
+
+section:nth-child(5) h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    font-size: 60px;
+}
+
+section:nth-child(5) div {
+    display: flex;
+    max-width: 1200px;
+    padding-left: 70px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+}
+
+section:nth-child(5) div div {
+    justify-content: center;
+    align-items: center;
+    display: grid;
+}
+
+section:nth-child(5) div div div {
+    margin-bottom: 30px;
+}
+
+section:nth-child(5) div div div h3 {
+    margin-right: 250px;
+}
+
+
+
+
+
+
+footer {
+    background: rgb(19, 18, 18);
+}
+
+footer section {
+    padding: 200px 50px 50px;
+}
+
+footer section div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 600px;
+}
+
+footer section div div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+footer section div div i {
+    width: 30px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    background: #fff;
+    color: rgb(19, 18, 18);
+}
+
+footer section p {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: #fff;
+    margin-top: 100px;
+}

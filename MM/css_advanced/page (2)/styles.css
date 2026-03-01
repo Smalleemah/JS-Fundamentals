@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+};
+
+main {
+    width: 100%;
+    height: 100%;
+}
+
+.main-class {
+    display: flex;
+    background: rgb(199, 137, 185);
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 50px; */
+    gap: 50px;
+    color: white;
+}
+section div img {
+    width: 120px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+}
+
+section div:nth-child(2) h3 {
+   margin-top: 10px;
+}
